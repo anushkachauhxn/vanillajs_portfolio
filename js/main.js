@@ -1,13 +1,25 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
-
+const navMenu = document.getElementById('nav-menu'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
-
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+    })
+}
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
-
+if (navClose) {
+    console.log('here')
+    navClose.addEventListener('click', () => {
+        console.log('here2')
+        navMenu.classList.remove('show-menu')
+    })
+}
 
 /*==================== REMOVE MENU MOBILE ====================*/
 
