@@ -396,6 +396,21 @@ img {
     cursor: pointer;
 }
 
+.skills__icon,
+.skills__arrow {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.skills__icon {
+    margin-right: var(--mb-0-75);
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: 0.4s;
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
