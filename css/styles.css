@@ -160,6 +160,22 @@ img {
     align-items: center;
 }
 
+.nav__logo, 
+.nav__toggle {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav__logo:hover,
+.nav__toggle:hover {
+    color: var(--first-color);
+}
+
 /* show menu */
 
 
