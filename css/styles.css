@@ -262,6 +262,15 @@ img {
     color: var(--first-color-alt);
 }
 
+.home__blob {
+    width: 240px;
+    fill: var(--first-color);
+}
+
+.home__blob-img {
+    width: 200px;
+}
+
 /*==================== BUTTONS ====================*/
 
 
