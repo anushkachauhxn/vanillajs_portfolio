@@ -487,6 +487,22 @@ img {
     margin-bottom: var(--mb-2);
 }
 
+.qualification__button {
+    color: var(--text-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color: var(--first-color);
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
 /*==================== SERVICES ====================*/
 
 
