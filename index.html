@@ -577,10 +577,11 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most Recent Work</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper">
+                    <!-- Swiper Slides -->
+                    <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO #1 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/portfolio1.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Modern Website</h3>
@@ -593,7 +594,7 @@
                         </div>
 
                         <!--==================== PORTFOLIO #2 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/portfolio2.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Brand Redesign</h3>
@@ -606,7 +607,7 @@
                         </div>
 
                         <!--==================== PORTFOLIO #3 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/images/portfolio3.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">UX Case Study</h3>
@@ -618,6 +619,17 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Swiper: Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="swiper-portfolio-icon uil uil-angle-right-b"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="swiper-portfolio-icon uil uil-angle-left-b"></i>
+                    </div>
+
+                    <!-- Swiper: Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
