@@ -677,7 +677,7 @@ img {
 }
 
 .portfolio__img {
-    width: 265px;
+    width: 400px;
     border-radius: 0.5rem;
     justify-self: center;
 }
@@ -706,15 +706,15 @@ img {
 }
 
 .swiper-button-prev {
-    left: -0.5rem;
+    left: -1rem;
 }
 
 .swiper-button-next {
-    right: -0.5rem;
+    right: -0.25rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -2.5rem;
+.swiper-horizontal > .swiper-pagination-bullets {
+    bottom: -3rem;
 }
 
 .swiper-pagination-bullet-active {
