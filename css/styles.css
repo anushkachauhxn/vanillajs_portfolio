@@ -585,6 +585,15 @@ img {
     font-weight: var(--font-medium);
 }
 
+.services__button {
+    cursor: pointer;
+    font-size: var(--small-font-size);
+}
+
+.services__button:hover .button__icon {
+    transform: translateX(0.25rem);
+}
+
 /* Active Modal */
 
 
