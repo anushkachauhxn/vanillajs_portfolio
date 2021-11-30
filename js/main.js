@@ -75,7 +75,18 @@ tabs.forEach((tab) => {
 })
 
 /*==================== SERVICES MODAL ====================*/
+const modalViews = document.querySelectorAll('.services__modal'),
+      modalBtns = document.querySelectorAll('.services__button')
 
+let modal = function(modalClick) {
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () => {
+        modal(i)
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
