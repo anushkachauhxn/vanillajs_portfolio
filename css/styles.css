@@ -359,6 +359,15 @@ img {
     color: var(--first-color-alt);
 }
 
+.button--white {
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover {
+    background-color: #FFF;
+}
+
 /*==================== ABOUT ====================*/
 .about__img {
     width: 200px;
@@ -749,6 +758,10 @@ img {
 .project__title,
 .project__description {
     color: #FFF;
+}
+
+.project__button:hover .button__icon {
+    transform: translateX(0.25rem);
 }
 
 /*==================== TESTIMONIAL ====================*/
