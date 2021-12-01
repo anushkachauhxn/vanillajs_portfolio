@@ -853,6 +853,10 @@ img {
     resize: none;
 }
 
+.contact_button:hover .button__icon {
+    transform: translateX(0.25rem);
+}
+
 /*==================== FOOTER ====================*/
 
 
