@@ -921,7 +921,7 @@ img {
 .scrollup {
     position: fixed;
     right: 1rem;
-    bottom: 5rem;
+    bottom: -20%;
     background-color: var(--first-color);
     opacity: 0.8;
     padding: .1rem .1rem .1rem .1rem;
@@ -942,7 +942,9 @@ img {
 }
 
 /* Show scroll */
-
+.show-scroll {
+    bottom: 5rem;
+}
 
 /*========== SCROLL BAR ==========*/
 
