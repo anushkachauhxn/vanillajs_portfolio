@@ -899,6 +899,13 @@ img {
     color: var(--first-color-lighter)
 }
 
+.footer__copyright {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: var(--mb-3);
+}
+
 /*========== SCROLL UP ==========*/
 
 
