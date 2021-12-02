@@ -906,6 +906,13 @@ img {
     margin-top: var(--mb-3);
 }
 
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
+    color: #FFF;
+}
+
 /*========== SCROLL UP ==========*/
 
 
