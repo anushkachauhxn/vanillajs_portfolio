@@ -880,6 +880,16 @@ img {
     font-size: var(--small-font-size)
 }
 
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover {
+    color: var(--first-color-lighter);
+}
+
 /*========== SCROLL UP ==========*/
 
 
