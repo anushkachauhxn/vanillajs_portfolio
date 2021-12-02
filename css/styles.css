@@ -890,6 +890,15 @@ img {
     color: var(--first-color-lighter);
 }
 
+.footer__social {
+    font-size: 1.5rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover {
+    color: var(--first-color-lighter)
+}
+
 /*========== SCROLL UP ==========*/
 
 
