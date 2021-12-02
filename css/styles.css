@@ -924,7 +924,7 @@ img {
     bottom: -20%;
     background-color: var(--first-color);
     opacity: 0.8;
-    padding: .1rem .1rem .1rem .1rem;
+    padding: .1rem .1rem .1rem .45rem;
     border-radius: 50%;
     z-index: var(--z-tooltip);
     transition: .4s;
