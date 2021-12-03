@@ -1032,6 +1032,20 @@ img {
     .services__modal {
         padding: 0 .5rem;
     }
+
+    .testimonial__data,
+    .testimonial__header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__img {
+        margin-right: 0;
+        margin-bottom: var(--mb-0-25);
+    }
+    .testimonial__data,
+    .testimonial__description {
+        text-align: center;
+    }
 }
 
 /* For medium devices */
