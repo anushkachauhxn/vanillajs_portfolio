@@ -1169,6 +1169,22 @@ img {
     .home__scroll-button {
         margin-left: 4rem;
     }
+
+    .about__container {
+        column-gap: 5rem;
+    }
+    .about__img {
+        width: 320px;
+    }
+    .about__description {
+        text-align: initial;
+    }
+    .about__info {
+        justify-content: space-between;
+    }
+    .about__buttons {
+        justify-content: initial;
+    }
 }
 
 /* For large devices */
