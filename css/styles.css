@@ -1152,6 +1152,23 @@ img {
     .change-theme {
         margin: 0;
     }
+
+    .home__container {
+        row-gap: 5rem;
+    }
+    .home__content {
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+    }
+    .home__blob {
+        width: 270px;
+    }
+    .home__scroll {
+        display: block;
+    }
+    .home__scroll-button {
+        margin-left: 4rem;
+    }
 }
 
 /* For large devices */
