@@ -1216,6 +1216,15 @@ img {
     .portfolio__content {
         align-items: center;
     }
+
+    .project__bg {
+        background: none;
+    }
+    .project__container {
+        background-color: var(--first-color-second);
+        border-radius: 1rem;
+        padding: 3rem 3rem;
+    }
 }
 
 /* For large devices */
