@@ -1078,6 +1078,12 @@ img {
     .skills__container {
         padding: 0 5rem;
     }
+
+    .qualification__sections {
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
 }
 
 /* For large devices */
