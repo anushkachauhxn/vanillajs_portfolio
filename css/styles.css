@@ -1006,6 +1006,13 @@ img {
     .nav__list {
         column-gap: 0;
     }
+
+    .home__content {
+        grid-template-columns: .25fr 3fr;
+    }
+    .home__blob {
+        width: 200px;
+    }
 }
 
 /* For medium devices */
