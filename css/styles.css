@@ -1185,6 +1185,16 @@ img {
     .about__buttons {
         justify-content: initial;
     }
+
+    .qualification__tabs {
+        justify-content: center;
+    }
+    .qualification__button {
+        margin: 0 var(--mb-1);
+    }
+    .qualification__sections {
+        grid-template-columns: .5fr;
+    }
 }
 
 /* For large devices */
