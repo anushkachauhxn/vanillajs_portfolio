@@ -1209,6 +1209,13 @@ img {
     .services__modal-content {
         width: 450px;
     }
+
+    .portfolio__img {
+        width: 320px;
+    }
+    .portfolio__content {
+        align-items: center;
+    }
 }
 
 /* For large devices */
