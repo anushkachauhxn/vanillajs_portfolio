@@ -1067,6 +1067,13 @@ img {
         order: 1;
         justify-self: center;
     }
+
+    .about__container,
+    .portfolio__content,
+    .project__container,
+    .contact__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* For large devices */
