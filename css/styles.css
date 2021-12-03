@@ -1046,6 +1046,10 @@ img {
     .testimonial__description {
         text-align: center;
     }
+
+    .contact__form {
+        width: 92.5%;
+    }
 }
 
 /* For medium devices */
