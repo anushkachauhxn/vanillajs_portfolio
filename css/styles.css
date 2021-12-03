@@ -1017,6 +1017,10 @@ img {
     .skills__title {
         font-size: var(--normal-font-size);
     }
+
+    .qualification__data {
+        gap: .5rem;
+    }
 }
 
 /* For medium devices */
