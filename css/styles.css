@@ -1106,4 +1106,14 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        margin: 0;
+    }
+}
+
 /* For large devices */
