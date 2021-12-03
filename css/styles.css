@@ -754,7 +754,7 @@ img {
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
-    bottom: -3rem;
+    bottom: -2.5rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -991,7 +991,15 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-
+@media screen and (max-width: 350px) {
+    .section {
+        padding: 0 0 4rem;
+    }
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+}
 
 /* For medium devices */
 
