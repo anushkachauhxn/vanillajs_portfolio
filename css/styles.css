@@ -1264,4 +1264,14 @@ img {
     .footer__container {
         padding: 0;
     }
+
+    .home__blob {
+        width: 320px;
+    }
+    .home__data {
+        width: 500px;
+    }
+    .home__social {
+        transform: translateX(-6rem);
+    }
 }
