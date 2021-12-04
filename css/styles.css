@@ -1274,4 +1274,8 @@ img {
     .home__social {
         transform: translateX(-6rem);
     }
+
+    .services__container {
+        grid-template-columns: repeat(3, 238px);
+    }
 }
